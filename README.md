@@ -101,6 +101,6 @@ customer_address.dat  household_demographics.dat  reason.dat       time_dim.dat 
 
 ```
 cd <tpc-ds-tool>/tools
-./gen_queries.bash 1 /tmp/1
+./gen_queries.bash <scale factor> <output script directory>
 ```
 
